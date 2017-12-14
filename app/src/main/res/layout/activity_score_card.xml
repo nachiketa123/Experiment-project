@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nachu.mathgame.ScoreCard"
+    android:background="#ecf9a9"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scorecard"
+        android:text="Your Score:"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textColor="#494443"
+        android:textSize="60sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/number"
+        android:text=""
+        android:textAlignment="center"
+        android:layout_below="@id/scorecard"
+        android:textColor="#494443"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/HiSc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        android:layout_centerHorizontal="true"
+        android:text="high score :"
+        android:textAlignment="textEnd"
+        android:textColor="#494443"
+        android:textSize="20sp" />
+</RelativeLayout>
+
